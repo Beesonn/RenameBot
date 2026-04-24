@@ -53,6 +53,7 @@ async def start(_, m):
     buttons = [
         [
             InlineKeyboardButton("⚙️ Help", callback_data="help"),
+            InlineKeyboardButton("GitHub", url="https://github.com/Beesonn/RenameBot"),
         ],
         [
             InlineKeyboardButton("🌐 Support Chat", url="https://t.me/XBOTSUPPORTS"),
